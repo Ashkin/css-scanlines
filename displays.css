@@ -1,0 +1,31 @@
+
+/* Display */
+
+.display {
+  width:         inherit;
+  height:        inherit;
+  background:    #101015;
+  border-radius: 0.75em;
+  font-size:  12px;
+  font-family:   system, monospace;
+  color:         skyblue;
+}
+
+.display .bezel {
+  position:      relative;
+  width:         100%;
+  height:        100%;
+  border:        0.35em solid black;
+  border-radius: inherit;
+}
+
+
+.display .screen {
+  position:      absolute;
+  width:         100%;
+  height:        100%;
+  padding:       0.75em;
+  border-radius: inherit;
+  box-shadow:    0 0 3px   rgba( 51,153,187, 1)   inset,
+                 0 0 1.5em rgba(135,206,235, 0.5) inset;
+}

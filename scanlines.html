@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <title>Scanlines test</title>
+  <link rel="stylesheet" type="text/css" href="scanlines.css" />
+  <link rel="stylesheet" type="text/css" href="displays.css" />
+
+
+  <style>
+    * {
+      padding: 0;
+      margin:  0;
+      box-sizing: border-box !important;
+    }
+    html, body {
+      height: 100%;
+    }
+    body {
+      background: linear-gradient(to bottom, black, black 10%, skyblue 90%, skyblue);
+    }
+    #test {
+      position:   absolute;
+      top:        20%;
+      left:       10%;
+      width:      20em;
+      height:     20em;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="test">
+    <div class="display">
+      <div class="bezel">
+        <div class="screen scanlines">
+          <p>Scanline test by Terra (Ashkin)</p>
+          <br/>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel hendrerit massa. Nam quis hendrerit velit. Curabitur vel placerat est. Integer interdum massa id facilisis porttitor. Vivamus euismod, tortor in fermentum congue, odio nibh finibus neque, volutpat dignissim urna leo eget sapien. Integer vel nulla elementum, consectetur justo sed, facilisis arcu. Mauris sit amet ipsum a lectus dapibus gravida ut at odio. Nullam at accumsan neque.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
